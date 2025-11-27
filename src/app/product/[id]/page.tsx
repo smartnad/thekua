@@ -10,43 +10,43 @@ import { motion } from "framer-motion";
 const products = [
     {
         id: "1",
-        name: "Traditional Thekua",
+        name: "Coconut Suji Magic",
         description: "Authentic homemade Thekua made with pure ghee and wheat flour. A traditional delicacy from Bihar and Jharkhand, perfect for festivals and tea-time snacks.",
         price: 299,
         original_price: 599,
-        image_url: "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=2070&auto=format&fit=crop",
-        category: "sweets",
+        image_url: "/images/coconut-suji-magic.png",
+        category: "Signature",
         ingredients: "Wheat Flour, Ghee, Sugar, Cardamom, Coconut, Dry Fruits"
     },
     {
         id: "2",
-        name: "Jaggery Thekua",
+        name: "Coconut Jaggery Magic",
         description: "Healthy and delicious Thekua made with organic jaggery. Enjoy the guilt-free sweetness of jaggery combined with the crunch of traditional Thekua.",
         price: 299,
         original_price: 599,
-        image_url: "https://images.unsplash.com/photo-1589119908995-c6837fa14848?q=80&w=2070&auto=format&fit=crop",
-        category: "sweets",
+        image_url: "/images/coconut-jaggery-magic.png",
+        category: "Healthy",
         ingredients: "Wheat Flour, Ghee, Jaggery, Fennel Seeds, Coconut"
     },
     {
         id: "3",
-        name: "Traditional 3 Combo",
+        name: "Festival Combo Pack",
         description: "Pack of 3 Traditional Thekua boxes. Perfect for gifting or stocking up for the family.",
         price: 799,
         original_price: 1799,
-        image_url: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop",
-        category: "combo",
+        image_url: "/images/pack-of-3.png",
+        category: "Gift Box",
         ingredients: "Wheat Flour, Ghee, Sugar, Cardamom, Coconut, Dry Fruits"
     },
     {
         id: "4",
-        name: "Jaggery 3 Combo",
-        description: "Pack of 3 Jaggery Thekua boxes. A healthy and tasty treat for everyone.",
-        price: 799,
-        original_price: 1799,
-        image_url: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1926&auto=format&fit=crop",
-        category: "combo",
-        ingredients: "Wheat Flour, Ghee, Jaggery, Fennel Seeds, Coconut"
+        name: "Freshly Baked Thekua",
+        description: "Crispy, fresh, and full of flavor. Experience the taste of freshly baked goodness.",
+        price: 399,
+        original_price: 699,
+        image_url: "/images/thekua-closeup.png",
+        category: "Fresh",
+        ingredients: "Wheat Flour, Ghee, Sugar, Fennel Seeds, Coconut"
     }
 ];
 
